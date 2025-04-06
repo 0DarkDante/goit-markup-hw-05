@@ -597,6 +597,36 @@ footer>.container {
   resize: none;
 }
 
+.modal-checkbox:checked + .modal-checkbox-text span {
+  background-color: #4d5ae5;
+  border: none;
+}
+
+.modal-checkbox-text {
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+  display: flex;
+  align-items: center;
+  a {
+   line-height: 1.33;
+   text-decoration: underline;
+   color: #4d5ae5;
+  }
+}
+
+.modal-checkbox-text span {
+  border-radius: 2px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .form-btn {
   display: block;
   font-weight: 500;

@@ -561,6 +561,10 @@ footer>.container {
   border-radius: 4px;
 }
 
+.footer-input-email::placeholder {
+  color: #fff;
+}
+
 /* Модалка */
 
 .overlay {

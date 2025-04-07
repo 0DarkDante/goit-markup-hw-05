@@ -15,7 +15,7 @@
       rel="stylesheet"
     />
 
-    <title>hw-04</title>
+    <title>hw-05</title>
   </head>
   <body>
     <header class="header">
@@ -477,8 +477,8 @@
         <div class="footer-subcribe">
           <p class="footer-subscribe-text">Subscribe</p>
 
-          <form>
-            <label aria-label="footer-email">
+          <form class="footer-form">
+            <label aria-label="footer-email" class="footer-form-label">
               <input
                 type="email"
                 name="email"
@@ -488,7 +488,7 @@
             /></label>
             <button type="submit" class="subscribe-btn">
               Subscribe
-              <svg height="24" width="24">
+              <svg height="24" width="24" class="subscribe-btn-svg">
                 <use href="./images/icons.svg#icon-Frame-3-1"></use>
               </svg>
             </button>
@@ -497,10 +497,10 @@
       </div>
     </footer>
 
-    <div class="overlay">
+    <div class="overlay is-open">
       <div class="modal">
         <button type="button" class="modal-close-btn">
-          <svg width="8" height="8">
+          <svg width="8" height="8" class="modal-close-btn-svg">
             <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
           </svg>
         </button>
@@ -555,33 +555,33 @@
             </div>
           </div>
 
-          <div class="modal-form-wrap">
-            <label class="modal-form-label" for="user-text">Comment</label>
+          <div class="modal-form-wrap modal-form-wrap-textarea">
+            <label class="modal-form-label" for="user-comment">Comment</label>
 
             <textarea
-              name="user-text"
-              id="user-text"
+              name="user-comment"
+              id="user-comment"
               class="modal-textarea"
               placeholder="Text input"
             ></textarea>
           </div>
 
-          <div class="modal-form-wrap">
+          <div class="modal-form-wrap modal-form-wrap-checkbox">
             <input
               type="checkbox"
-              name="policy"
-              id="policy"
+              name="user-privacy"
+              id="user-privacy"
               class="modal-checkbox visually-hidden"
               value="true"
             />
-            <label for="policy" class="modal-checkbox-text">
-              <span>
+            <label for="user-privacy" class="modal-checkbox-text">
+              <span class="user-privacy-span">
                 <svg width="10" height="8">
                   <use href="./images/icons.svg#icon-Vector"></use>
                 </svg>
               </span>
               I accept the terms and conditions of the&nbsp;
-              <a href="">Privacy Policy</a></label
+              <a href="" class="user-privacy-link">Privacy Policy</a></label
             >
           </div>
 

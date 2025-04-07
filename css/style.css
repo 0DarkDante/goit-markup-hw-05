@@ -709,7 +709,7 @@ footer>.container {
   border-color: #4D5AE5;
 }
 
-.modal-checkbox:checked .user-privacy-span {
+.modal-checkbox:checked+.modal-checkbox-text .user-privacy-spa {
   background-color: #404bbf;;
   border: none;
   fill: #F4F4FD;
@@ -720,8 +720,6 @@ footer>.container {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
-  display: flex;
-  align-items: center;
   a {
    line-height: 1.33;
    text-decoration: underline;

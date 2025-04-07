@@ -709,7 +709,7 @@ footer>.container {
   border-color: #4D5AE5;
 }
 
-.modal-checkbox:checked+.modal-checkbox-text .user-privacy-spa {
+.modal-checkbox:checked+.modal-checkbox-text .user-privacy-span {
   background-color: #404bbf;;
   border: none;
   fill: #F4F4FD;
